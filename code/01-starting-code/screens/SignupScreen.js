@@ -20,8 +20,8 @@ function SignupScreen() {
         "Invalid User Details",
         "Could not create user, please enter valid inputs",
       );
+      setIsAuthenticating(false);
     }
-    setIsAuthenticating(false);
   }
 
   if (isAuthenticating) {
